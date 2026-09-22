@@ -10,7 +10,7 @@ An attendance calculator in which you just enter number of lectures you have att
 
 ![alt text](image-1.png)
 
-## How to Run
+## How to Run it locally
 
 1. Clone this repository or download the ZIP file.
 2. Open the project folder.
