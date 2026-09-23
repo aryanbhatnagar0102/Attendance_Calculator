@@ -36,4 +36,9 @@ An attendance calculator in which you just enter number of lectures you have att
 
 ## AI Assistance
 
-AI was used to generate CSS styling and layout ideas. The HTML structure and JavaScript functionality were written by me. I also reviewed the generated CSS and made changes to fit the project.
+AI assistance was used for parts of the CSS development.
+
+- I wrote the HTML structure and JavaScript logic myself.
+- AI helped me with CSS suggestions for layout, spacing, colors, input styling, buttons, and responsiveness.
+- I manually added, tested, and modified the CSS in my project.
+- AI was also used for debugging and understanding some CSS issues.

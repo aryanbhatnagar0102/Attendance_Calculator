@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance Calculator</title>
-    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="calculator">
 
-        <div class="header">
+        <h1>Attendance Calculator</h1>
 
-            <h1>Attendance Calculator</h1>
+        <p class="description">
+            Check your attendance and find out how many lectures you can bunk.
+        </p>
 
-            <p>
-                Know your Attendance.
-                Know your Bunks.
-            </p>
+        <div class="form-group">
+            <label for="attended">Lectures Attended</label>
+            <input type="number" id="attended" placeholder="e.g. 45">
         </div>
 
-    <div class="form">
+        <div class="form-group">
+            <label for="total">Total Lectures</label>
+            <input type="number" id="total" placeholder="e.g. 60">
+        </div>
 
-    <label for = "attended">Lectures Attended</label>
-    <input type = "number"
-     id= "attended"
-     placeholder="e.g. 60"
-     min="0">
+        <div class="form-group">
+            <label for="left">Lectures Left</label>
+            <input type="number" id="left" placeholder="e.g. 20">
+        </div>
 
-    <label for = "total">Total Lectures</label>
-    <input type = "number"
-     id= "total"
-     placeholder="e.g. 80"
-     min="1">
+        <div class="form-group">
+            <label for="required">Required Attendance (%)</label>
+            <input type="number" id="required" placeholder="e.g. 75">
+        </div>
 
-    <label for = "required">Required Attendance</label>
-    <input type = "number"
-     id= "required"
-     placeholder="e.g. 75"
-     min="0"
-     max="100">
+        <button id="calculate">Calculate Attendance</button>
 
-    <button id = "calculate">Calculate Attendance</button>
-    </div>
-    <div id = "result"></div>
-
-    <div class="footer">
-        Built for students who wants to BUNK.
-    </div>
+        <div id="result"></div>
 
     </div>
 
-<script src = "script.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
